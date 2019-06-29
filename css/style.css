@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+kbd{
+    border: 1px solid red;
+    display: inline-block;
+    width: 4em;
+    height: 4em;
+    text-transform: uppercase;
+    position: relative;
+}
+kbd > button{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: none; //先让 button 隐藏
+}
+kbd:hover > button{
+    display:inline-block;
+}
+#fath{
+    text-align: center;
+}
